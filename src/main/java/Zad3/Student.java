@@ -42,8 +42,8 @@ public class Student {
         return gender;
     }
 
-    public void setGebder(Gender gebder) {
-        this.gender = gebder;
+    public void setGender(Gender gender) {
+        this.gender = gender;
     }
 
     // metodę toString dodajemy Alt+Insert

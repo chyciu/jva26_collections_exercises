@@ -58,7 +58,7 @@ public class Dziennik {
     public List<Student> zwrocZagrozonych ()  {
         List<Student> listaWynikowa = new ArrayList<>();
 
-        //magia, skopiowanie listy indeksow przed sprawdzaniem. zabepecza przed bledem, kiedy ktos usunie studenta
+        //magia, skopiowanie listy indeksow przed sprawdzaniem. zabepiecza przed bledem, kiedy ktos usunie studenta
         // z listy w trakcie sprawdzania.
         Set<String> kopiaIndesow = new HashSet<>(studentMap.keySet());
         for (String indeks : kopiaIndesow) {
