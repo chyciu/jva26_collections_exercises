@@ -63,18 +63,18 @@ public class Main {
         //znadjowanie elementu max i min listy
 
         int indexMax = 0;
-        int indeksMin = 0;
+        int indexMin = 0;
         for (int i = 0; i < listaA.size(); i++) {
             if (max == listaA.get(i)) {
                 indexMax = i;
             }
             if (min == listaA.get(i)) {
-                indexMax = i;
+                indexMin = i;
             }
         }
 
         System.out.println("Index max: " + indexMax);
-        System.out.println("Index min: " + indeksMin);
+        System.out.println("Index min: " + indexMin);
 
         //znajdowanie indeksów maksymalnego elementu i minimalnego elementu
         System.out.println("Index max (indexof):" + listaA.indexOf(max));

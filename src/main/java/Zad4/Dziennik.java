@@ -86,7 +86,9 @@ public class Dziennik {
                 int indeks2 = Integer.parseInt(o2.getIndeks());
                 return  Integer.compare(indeks1, indeks2);
             }
-        }); return studentList;
+        }
+        );
+        return studentList;
     }
 
 
