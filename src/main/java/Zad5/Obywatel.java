@@ -37,4 +37,13 @@ public class Obywatel {
     public void setNazwisko(String nazwisko) {
         this.nazwisko = nazwisko;
     }
+
+    @Override
+    public String toString() {
+        return "Obywatel{" +
+                "pesel='" + pesel + '\'' +
+                ", imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                '}';
+    }
 }
